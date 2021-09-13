@@ -1,9 +1,4 @@
-.thanks{
-  background-image: url('https://noncasus.github.io/mechismes/img/bless-meche.jpg');
-}
-
-
- #elformo_honeypot{
+#elformo_honeypot{
   display: none;
 }
 .heading-wrapper{
@@ -39,4 +34,21 @@
 .input-wrapper{
   display: flex;
   flex-direction: row-reverse;
+}
+
+.gracias{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.thanks{
+  background-image: url('https://noncasus.github.io/mechismes/img/bless-meche.jpg');
+  height: 523px;
+  width: 400px;
+  display: inline-block;
+  background-size: cover;
+}
+.thanks h1{
+  margin-top: 20px;
 }
