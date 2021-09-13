@@ -3,8 +3,7 @@
 }
 
 
- #elformo_honeypot,
- #email {
+ #elformo_honeypot{
   display: none;
 }
 .heading-wrapper{
@@ -17,7 +16,27 @@
   align-items: center;
   height: 100vh;
 }
+.pseudonym,
+.comment{
+  margin: 25px 0;
+}
+.pseudonym label,
+.comment label{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pseudonym > label {
+  display: block;
+}
+#email{
+  width: 33%;
+}
 .form-wrapper textarea{
   height: 25vh;
   width: 100%;
+  padding: 15px;
+}
+.input-wrapper{
+  display: flex;
+  flex-direction: row-reverse;
 }
