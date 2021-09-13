@@ -1,3 +1,8 @@
+ #elformo_honeypot,
+ #email {
+  display: none;
+}
+
 .form-wrapper{
   display: flex;
   justify-content: center;
