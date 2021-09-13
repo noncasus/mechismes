@@ -1,6 +1,3 @@
-#elformo_honeypot{
-  display: none;
-}
 .heading-wrapper{
   text-align: center;
   margin-top: 50px;
@@ -54,4 +51,8 @@
 }
 .bless-meche{
   text-align: center;
+}
+.thanks-message{
+  text-align: center;
+  margin-top: 25px;
 }
