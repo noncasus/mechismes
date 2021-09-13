@@ -2,12 +2,22 @@
   background-image: url('https://noncasus.github.io/mechismes/img/bless-meche.jpg');
 }
 
+
  #elformo_honeypot,
  #email {
   display: none;
 }
-
+.heading-wrapper{
+  text-align: center;
+  margin-top: 50px;
+}
 .form-wrapper{
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-wrapper textarea{
+  height: 25vh;
+  width: 100%;
 }
