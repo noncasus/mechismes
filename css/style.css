@@ -1,3 +1,13 @@
+.logo-wrapper{
+  text-align: center;
+}
+.logo{
+  text-align: center;
+  display: inline-block;
+}
+.logo img{
+  height: 40vh;
+}
 .heading-wrapper{
   text-align: center;
   margin-top: 50px;
@@ -6,7 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 60vh;
 }
 .pseudonym,
 .comment{
